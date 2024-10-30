@@ -1,0 +1,199 @@
+/*input Range*/
+input[type=range] 
+{
+	-webkit-appearance: none;
+	width: 75%;
+	margin: 11px 0;
+	background-color: #e4e3e3;
+}	
+input[type=range]::-webkit-slider-runnable-track 
+{
+	width: 100%;
+	height: 6px;
+	cursor: pointer;
+	box-shadow: 2.1px 2.1px 15px #c0c0c0, 0px 0px 2.1px #cdcdcd;
+	background: #0073aa;
+	border-radius: 25px;
+	border: 0px solid #010101;
+}
+input[type=range]::-webkit-slider-thumb 
+{
+  	box-shadow: 4.4px 4.4px 6px #c0c0c0, 0px 0px 4.4px #cdcdcd;
+	border: 0px solid rgba(0, 0, 0, 0);
+	height: 20px;
+	width: 11px;
+	border-radius: 50px;
+	background: #ffffff;
+	cursor: pointer;
+	-webkit-appearance: none;
+	margin-top: -7px;
+}	
+/*wpcolorPicker*/
+.wp-picker-clear
+{
+	display: none !important;
+}
+.wp-picker-container .iris-picker {
+	margin-left: 120px;
+	position: absolute;
+	z-index: 9999999999;
+}
+.wp-picker-container, .wp-picker-container:active
+{
+	margin-left: 5px;
+}
+.wp-color-result
+{
+	margin: 0;
+}
+/*wpcolorPicker*/
+/*OnOffSwitch*/
+.onoffswitch 
+{
+		position: relative; 
+		width: 80px;
+	-webkit-user-select:none;
+	-moz-user-select:none; 
+	-ms-user-select: none;
+	}
+.onoffswitch-checkbox 
+{
+    display: none !important;
+}
+.onoffswitch-label 
+{
+    display: block; 
+    overflow: hidden; 
+    cursor: pointer;
+    border: 1px solid #0073aa; 
+    border-radius: 15px;
+    height: 25px;
+}
+.onoffswitch-inner 
+{
+    display: block; 
+    width: 200%; 
+    margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after 
+{
+    display: block; 
+    float: left; 
+    width: 50%; 
+    height: 25px; 
+    padding: 0; 
+    line-height: 25px;
+    font-size: 14px; 
+    color: white; 
+    font-family: 
+    Trebuchet, Arial, sans-serif; 
+    font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before 
+{
+    content: "Yes";
+    padding-left: 10px;
+    background-color: #0073aa; 
+    color: #FFFFFF;
+}
+.onoffswitch-inner:after 
+{
+    content: "No";
+    padding-right: 10px;
+    background-color: #ffffff; 
+    color: #0073aa;
+    text-align: right;
+}
+.onoffswitch-switch 
+{
+    display: block; 
+    width: 18px; 
+    margin: 6px;
+    background: #0073aa;
+    position: absolute; 
+    top: 0; 
+    bottom: 0;
+    right: 45px;
+    border: 1px solid #999999; 
+    border-radius: 20px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner 
+{
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch 
+{
+    right: 0px; 
+    background: #ffffff;
+}
+/*OnOffSwitch*/
+.JIT_Poll_MainDiv
+{
+	margin-top: 30px;
+	width: 99%;
+	height: 120px;
+	background-color: #0073aa; 
+	border-radius: 10px;
+	padding: 5px;
+}
+.JIT_Poll_Logo
+{
+	float: left;
+	height: 70px;
+}
+.JIT_Poll_AddD1,.JIT_Poll_SetD1
+{
+	margin-top: 85px;
+}	
+.JIT_Poll_AddD2,.JIT_Poll_SetD2
+{
+	margin-top: 85px;
+	display: none;
+}
+.JIT_Poll_Title_Span
+{
+	color: white;
+	margin-left: 25px;
+	font-size: 25px;
+	font-family: Gabriola;
+}
+.JIT_Poll_Search_Field
+{
+	height: 25px;
+	margin-top: -10px;
+	border-radius: 3px;
+}
+.JIT_Poll_Reset_Button
+{
+	width: 100px;
+	background-color: #0073aa;
+	color: white;
+	border: 1px solid #ffffff;
+	border-radius: 3px;
+	box-shadow: 0px 0px 30px white;
+	margin-left: 5px;
+	cursor: pointer;
+}
+.JIT_Poll_Add_Button
+{
+	cursor: pointer;
+	width: 120px;
+	background-color: #0073aa;
+	color: #f68935;
+	border: 1px solid #f68935;
+	border-radius: 3px;
+	box-shadow: 0px 0px 30px #f68935;
+	margin-right: 25px;
+	margin-top: -5px;
+	float: right;
+}
+.JIT_Poll_Search_DNE
+{
+	color: white;
+	font-family: Gabriola;
+	font-size: 25px;
+	margin-left: 15px;
+}
